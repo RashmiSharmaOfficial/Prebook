@@ -1,6 +1,6 @@
 const Home = () => {
     return (
-      <div className="bg-gradient-to-b from-blue-50 to-blue-100 min-h-screen flex items-center justify-center">
+      <div className=" max-h-[calc(100vh-70px)] flex items-center justify-center">
         <div className="text-center p-8 max-w-4xl mx-auto">
           {/* Heading */}
           <h1 className="text-5xl font-extrabold text-gray-800 leading-tight">
@@ -19,10 +19,10 @@ const Home = () => {
               Register Restaurant
             </a>
             <a
-              href="/book"
+              href="/restaurants"
               className="bg-gray-200 text-gray-800 py-3 px-6 rounded-lg shadow-lg text-lg font-medium hover:bg-gray-300 focus:ring-4 focus:ring-gray-300"
             >
-              Book a Table
+              Find a Restaurant
             </a>
           </div>
   
